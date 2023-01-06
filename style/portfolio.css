@@ -81,10 +81,12 @@ main {
   margin-top: 130px;
 }
 header {
+  width: 100%;
+  height: 100vh;
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: right bottom, left;
-  height: 750px;
+  background-size: 880px, 80px;
 }
 .section-1 {
   text-align: center;
@@ -120,4 +122,96 @@ table td {
   font-weight: 400;
   font-size: 20px;
   padding: 10px;
+}
+.s2 {
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+}
+.s2-h {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.s2-p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 40px;
+}
+/* main-containar */
+
+.container {
+  display: flex;
+  margin-bottom: 100px;
+  width: 100%;
+  height: 60vh;
+  margin-left: 100px;
+}
+
+.containers {
+  width: 267px;
+  height: 450px;
+  margin: 20px;
+}
+.main-img {
+  padding: 20px;
+}
+.main-h {
+  color: #181818;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.main-p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+h1 {
+  text-align: center;
+}
+.main-div {
+  margin-left: 100px;
+  display: flex;
+}
+.h-div {
+  margin: 20px;
+}
+.div-c {
+  margin: 25px;
+}
+.m {
+  padding: 1px;
+  border: 1px solid red;
+}
+.b {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  background: #fd6e0a;
+  border-radius: 5px;
+  height: 64px;
+  width: 150px;
+  border: 0;
+}
+.d {
+  text-align: center;
+}
+.c-divv {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+.cc-divv {
+  margin: 30px;
+}
+.in {
+  width: 461px;
+  height: 64px;
 }
